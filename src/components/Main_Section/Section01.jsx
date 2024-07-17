@@ -1,23 +1,18 @@
 import React from 'react'
+import * as S from './Section01.styled'
+import sec1 from '../../assets/img/title.svg';
 
 const Section01 = () => {
     return (
-        <div className='Section01_wrap'>
-            <div className="Section01">
-                {/* "POSSIBILITY" 섹션, "TO","REALITY" 섹션을 Figma 레이아웃을 참고하여 텍스트를 작성하고,
-                각각 알맞는 섹션에 'Img01_img',Img02_img',Img03_img' ,Img04_img' 를 "클래스"로 추가하세요.*/}
-                <div>
-                    
-                </div>
-                <div>
-                    
-                </div>
-                <div>
-                    
-                </div>
-            </div>
-        </div>
+          {/*  src/assets/sass/sction/_mainsection안에 스타일을 참고해서
+                Section01Wrap, Section01Content,를 활용한 style.js를 만들어
+                여기에 stylecomponent로 활용하세요. 
+                그후에
+             각각 알맞는 섹션에 'Img01_img',Img02_img',Img03_img' ,Img04_img' 를 "클래스"로 추가하세요
+             잘모르겠다면 Section04 참고
+             */}
     )
 }
 
 export default Section01
+ 
